@@ -1,0 +1,72 @@
+.combo_left {
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #122128;
+}
+
+.combo_right {
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #122128;
+}
+
+.combo_left img {
+    height: 435px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.combo_right img {
+    height: 435px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.combo_heading h1 {
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.combo_left h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1em;
+}
+
+.combo_left p {
+    width: 571px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1em;
+}
+
+.combo_right h1 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1em;
+}
+
+.combo_right p {
+    width: 571px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1em;
+}

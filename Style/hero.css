@@ -1,0 +1,33 @@
+.left_img img{
+width: 500px;
+height: 500px;
+border-radius: var(--Stepper, 0px);
+}
+.left_img{
+    width: 45%;
+}
+.hero_right{
+    width: 45%;
+}
+.hero_right h1{
+color: #FFF;
+font-size: 100px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+}
+.hero_right span{
+color: #E12A2A;
+font-size: 100px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+}
+.hero_right p{
+color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1em;
+}

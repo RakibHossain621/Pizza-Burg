@@ -1,0 +1,35 @@
+.footer{
+background: #141B23;
+}
+.footer_logo img{
+    width: 174px;
+    height: 60px;
+    cursor: pointer;
+}
+/* .footer_logo{
+    width: 45%;
+}
+.footer_list{
+    width: 45%;
+} */
+.footer_links a{
+color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer_copy_name p{
+color: #ACACAC;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer_flex h6{
+color: #ACACAC;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

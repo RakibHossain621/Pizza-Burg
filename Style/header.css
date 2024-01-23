@@ -1,0 +1,15 @@
+.logo{
+    width: 174px;
+    height: 60px;
+    cursor: pointer;
+}
+.nav_links a{
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.nav_links a:hover{
+    color: red;
+}

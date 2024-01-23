@@ -1,0 +1,28 @@
+
+.masla_image img{
+    width: 183.95px;
+    height: 184.953px;
+}
+.masla_left h6{
+color: #FFF;
+font-size: 42px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.masla_left h1{
+color: #E12A2A;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.masla_left p{
+    width: 712px;
+    height: 84px;
+    color: #FFF;
+    font-size: 28px;
+   font-style: normal;
+    font-weight: 400;
+     line-height: normal;
+}
