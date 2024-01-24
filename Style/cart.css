@@ -10,6 +10,10 @@
 
 .cart_left_content p{
     color: var(--white-color);
+    font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+   line-height: normal;
 }
 
 .form-group{
@@ -59,6 +63,10 @@
 
   .cart_right p{
     color: var(--white-color);
+    font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
   }
 
   .button_wrapper button{
@@ -81,7 +89,20 @@
     align-items: flex-end;
     color: var(--white-color);
   }
-
+.price_wraper p{
+  color: var(--white-color);
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.total_wrapper p{
+  color: var(--white-color);
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
   .price_sec_main{
     width: 40%;
   }
@@ -89,4 +110,17 @@
   .charge{
     border-bottom: 1px solid var(--white-color);
     padding-bottom: 10px;
+  }
+
+  .check_out .check_out_btn_1{
+    padding: 16px 48px;
+    border-radius: 10px;
+    border: 2px solid #E12A2A;
+    background:transparent;
+    color: #E12A2A;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
   }

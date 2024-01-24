@@ -92,21 +92,20 @@ img {
 
 /* Button Utils */
 .app_button {
-    width: 317px;
-    height: 70px;
     padding: 21px 87px;
     border-radius: 10px;
     background: #E12A2A;
     color: #FFF;
-   font-family: Josefin Sans;
+    font-family: Josefin Sans;
     font-size: 25px;
     font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  display: flex;
+    font-weight: 500;
+     line-height: normal;
+    display: flex;
   justify-content: center;
-  align-items: center;
+   align-items: center;
   border: none;
   outline: none;
+  cursor: pointer;
    
 }

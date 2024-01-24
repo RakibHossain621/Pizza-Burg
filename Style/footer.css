@@ -6,12 +6,9 @@ background: #141B23;
     height: 60px;
     cursor: pointer;
 }
-/* .footer_logo{
-    width: 45%;
+.footer_wrapper{
+    width: 75%;
 }
-.footer_list{
-    width: 45%;
-} */
 .footer_links a{
 color: #FFF;
 font-size: 16px;

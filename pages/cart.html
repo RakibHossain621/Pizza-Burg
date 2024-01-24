@@ -22,11 +22,33 @@
     <link rel="stylesheet" href="../Style/app.css">
     <link rel="stylesheet" href="../Style/root.css">
     <link rel="stylesheet" href="../Style/cart.css">
+    <link rel="stylesheet" href="../Style/header.css">
+    <link rel="stylesheet" href="../Style/footer.css">
     <title>Cart Page</title>
 </head>
 
 <body>
+<!-- TODO: Navbar start -->
+<header>
+    <div class="container d-flex justify-between align-center">
+      <div class="logo">
+        <img src="../image/logo.png" alt="logo">
+      </div>
+      <ul class="nav_link d-flex align-center gap-8">
+        <li class="nav_links"><a href="../index.html">Home</a></li>
+        <li class="nav_links"><a href="#">Popular</a></li>
+        <li class="nav_links"><a href="#">Offer</a></li>
+        <li class="nav_links"><a href="#">Cart</a></li>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 46 42" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M41.4 33.4545H4.6C2.0608 33.4545 0 35.328 0 37.6364C0 39.9447 2.0608 41.8182 4.6 41.8182H41.4C43.9392 41.8182 46 39.9447 46 37.6364C46 35.328 43.9392 33.4545 41.4 33.4545ZM41.4 16.7273H4.6C2.0608 16.7273 0 18.6007 0 20.9091C0 23.2175 2.0608 25.0909 4.6 25.0909H41.4C43.9392 25.0909 46 23.2175 46 20.9091C46 18.6007 43.9392 16.7273 41.4 16.7273ZM4.6 8.36364H41.4C43.9392 8.36364 46 6.49018 46 4.18182C46 1.87345 43.9392 0 41.4 0H4.6C2.0608 0 0 1.87345 0 4.18182C0 6.49018 2.0608 8.36364 4.6 8.36364Z"
+            fill="#E12A2A" />
+        </svg>
+      </ul>
 
+    </div>
+  </header>
+  <!-- navbar end TODO: -->
 
 
     <section class="cart_page">
@@ -131,23 +153,53 @@
             </div>
             <div class="price_sec mt-4">
                 <div class="price_sec_main">
-                    <div class="d-flex align-center justify-between charge">
+                    <div class="price_wraper d-flex align-center justify-between charge">
                         <p>Delivery Charge</p>
                         <p>$9.99</p>
                     </div>
-                    <div class="d-flex align-center justify-between mt-3">
+                    <div class="total_wrapper d-flex align-center justify-between mt-3">
                         <p>Total</p>
                         <p>$9.99</p>
                     </div>
                 </div>
-                <div class="check_out mt-3">
-                    <button class="check_out_btn">Cancel</button>
-                    <button class="check_out_btn">Checkout</button>
+                <div class="check_out mt-3 d-flex gap-4">
+                    <button class="check_out_btn_1">Cancel</button>
+                    <button class="check_out_btn app_button">Checkout</button>
                 </div>
             </div>
         </div>
     </section>
-
+ <!-- cart section end -->
+ <!-- footer section start TODO: -->
+<footer class="footer sec_padding">
+    <div class="container">
+      <div class="footer_wrapper d-flex justify-between align-center">
+        <div class="footer_logo">
+          <img src="../image/logo.png">
+        </div>
+        <div class="footer_list">
+          <ul class="footer_link">
+            <li class="footer_links mt-1"><a href="#">Home</a></li>
+            <li class="footer_links mt-1"><a href="#">Newsletter </a></li>
+            <li class="footer_links mt-1"><a href="#">Privacy Policies</a></li>
+            <li class="footer_links mt-1"><a href="#">About</a></li>
+            <li class="footer_links mt-1"><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_copy">
+        <div class="footer_copy_name">
+          <p class="mt-5">© 2023 Technologies Inc.</p>
+        </div>
+        <div class="footer_flex d-flex justify-center align-center gap-8">
+          <h6>Privacy</h6>
+          <h6>Accessibility</h6>
+          <h6>Terms</h6>
+        </div>
+      </div>
+      </div>
+  </footer>
+  <!-- footer section end TODO: -->
 </body>
 
 </html>
