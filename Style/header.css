@@ -16,6 +16,9 @@
   color: #E12A2A;
 }
 
+
+/* Nav Links er color change korbe jodi website er background dark hoi tahole white nah hole nav links er color dibe dark */
+
 .overlay {
   position: fixed;
   top: 0;
@@ -43,6 +46,7 @@
   position: fixed;
   top: 0;
   right: -100%;
+  /* EKhane background color changes korte hobe */
   background: #122128;
   color: var(--white-color);
   width: 80%;
@@ -85,20 +89,17 @@
 }
 
 .mobile_navigation .nav_links.active {
+  /* EKhane background color changes korte hobe */
   color: #E12A2A;
 }
 
 .mobile_navigation .nav_links:hover {
+  /* EKhane background color changes korte hobe */
   color: #E12A2A;
 }
 
 .sidebar.active {
   right: 0px;
-}
-
-.button-group .first_element {
-  background: var(--secondary-color);
-  color: var(--white-color);
 }
 
 .hamburger_menu {
@@ -131,13 +132,5 @@
 
   .nav_link {
     display: none;
-  }
-
-  .btn-epic {
-    display: none !important;
-  }
-
-  .button-group .btn-epic {
-    display: block !important;
   }
 }
