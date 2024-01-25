@@ -46,13 +46,46 @@
             fill="#E12A2A" />
         </svg>
       </ul>
-
+      <button class="hamburger_menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="35"
+          height="25"
+          viewBox="0 0 35 25"
+          class="navigation_icons"
+        >
+          <rect width="35" height="5" />
+          <rect y="10" width="35" height="5" />
+          <rect y="20" width="35" height="5" />
+        </svg>
+      </button>
     </div>
+    <!-- Navbar Sidebar Element Start -->
+    <div class="overlay"></div>
+    <div class="sidebar">
+      <h5 class="sidebar_title">Menu</h5>
+      <button class="close_button">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          style="width: 32px; height: 32px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+      <ul class="mobile_navigation d-flex flex-col gap-4">
+        <li><a class="nav_links active" href="../index.html">Home</a></li>
+        <li>
+          <a class="nav_links" href="#popular">Popular</a>
+        </li>
+        <li><a class="nav_links" href="#offer">Offer</a></li>
+        <li><a class="nav_links" href="./pages/cart.html">Cart</a></li>
+        <li><a class="nav_links" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Navbar Sidebar Element End -->
   </header>
   <!-- navbar end TODO: -->
 
 
-    <section class="cart_page">
+    <section class="cart_page" id="cart">
         <div class="container">
             <div class="cart_item d-flex align-center justify-between p-4">
                 <div class="cart_left">
@@ -201,6 +234,7 @@
       </div>
   </footer>
   <!-- footer section end TODO: -->
+  <script src="/js/cart.js"></script>
 </body>
 
 </html>

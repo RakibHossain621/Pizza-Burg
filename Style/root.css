@@ -96,16 +96,12 @@ img {
     border-radius: 10px;
     background: #E12A2A;
     color: #FFF;
-    font-family: Josefin Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
-     line-height: normal;
-    display: flex;
-  justify-content: center;
-   align-items: center;
-  border: none;
-  outline: none;
-  cursor: pointer;
+    line-height: normal;
+     border: none;
+    outline: none;
+    cursor: pointer;
    
 }

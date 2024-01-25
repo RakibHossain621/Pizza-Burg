@@ -133,4 +133,8 @@
   .nav_link {
     display: none;
   }
+  .app_button{
+    display: block;
+    font-size: 19px;
+  }
 }
